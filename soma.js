@@ -4,6 +4,7 @@ const soma = (num1, num2) => {
 
 module.exports = soma
 
+console.log(soma(3, 8))
 
 
 
