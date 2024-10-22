@@ -1,10 +1,14 @@
-const soma = (num1, num2) => {
+// export default soma = (num1: number, num2: number):number => {
+//     return num1 + num2
+// } => não funciona
+
+export default function soma(num1: number, num2: number):number {
     return num1 + num2
 }
 
-module.exports = soma
 
-console.log(soma(3, 8))
+
+
 
 
 
